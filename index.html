@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Una sorpresa para José 💙</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky"></div>
+<div id="sparkles"></div>
+
+<main class="card">
+  <section id="start" class="screen active">
+    <div class="cloud cloud1"></div><div class="cloud cloud2"></div>
+    <div class="tiny-stars">✦　⋆　✧　⋆　✦</div>
+    <p class="eyebrow">💌 Tienes una sorpresa</p>
+    <h1>Para <span>José</span> 💙</h1>
+    <p class="sub">Hay algo que quiero regalarte...</p>
+
+    <button class="gift-wrap" id="openBtn" aria-label="Abrir regalo">
+      <div class="lid"><span></span></div>
+      <div class="box"><span class="ribbon-v"></span><span class="ribbon-h"></span></div>
+      <div class="bow"><i></i><i></i><b></b></div>
+    </button>
+    <p class="tap">Toca el regalo ✨</p>
+  </section>
+
+  <section id="birthday" class="screen">
+    <div class="confetti" id="confetti"></div>
+    <div class="balloons"><i>🎈</i><i>🎈</i><i>🎈</i></div>
+    <p class="eyebrow">✨ Sorpresa ✨</p>
+    <h2>¡Feliz cumpleaños,<br><span>José!</span> 🎉</h2>
+    <p class="message">
+      Espero que hoy tengas un día increíble, lleno de momentos bonitos,
+      risas y muchas cosas buenas. Gracias por ser un buen amigo.
+      <br><br>
+      ¡Que este nuevo año de tu vida venga con muchas aventuras y recuerdos geniales! 💙
+    </p>
+
+    <div class="cake-area">
+      <div class="cake">
+        <div class="flame f1">✦</div><div class="flame f2">✦</div><div class="flame f3">✦</div>
+        <div class="candle c1"></div><div class="candle c2"></div><div class="candle c3"></div>
+        <div class="icing"></div><div class="cake-top"></div><div class="cake-body"></div>
+      </div>
+    </div>
+
+    <button class="wish" id="wishBtn">🌟 Pedir un deseo</button>
+    <p id="wishText" class="wish-text"></p>
+    <p class="footer">Hecho con cariño para José 💙</p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
